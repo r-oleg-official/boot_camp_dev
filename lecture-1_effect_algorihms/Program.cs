@@ -7,10 +7,12 @@
 5. кубический.
 */
 
+/*
 // 1. константный алгоритм.
 int n = 0;
 if (n >= 0) n++;
 else n *= 2;
+*/
 
 /*
 2. логарифметический.
@@ -24,10 +26,10 @@ else n *= 2;
 6. > 62?, yes
 7. 62-75 / 2
 8. > 66?, yes
-
 Или (log2(n)) - 7 ходов.
 */
 
+/*
 // НОД (наибольший общий делитель). Алгоритм Евклида
 int n = 140,
     m = 175;
@@ -37,7 +39,9 @@ while (n != m)
     else m = m - n;
 }
 Console.WriteLine(m); // or Console.WriteLine(n);
+*/
 
+/*
 // НОК (наименьшее общее кратное)
 int n = 140,
     m = 175,
@@ -48,3 +52,4 @@ while (n != m)
     else m = m - n;
 }
 Console.WriteLine(count / n); // or Console.WriteLine(count / m);
+*/
