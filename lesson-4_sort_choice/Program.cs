@@ -54,14 +54,16 @@ Console.WriteLine("Sort array [" + string.Join(", ", array) + "]");
 */
 
 // Codepage UTF-8
+/*
 char[] array = new char[5];
 for (int i = 0; i < 5; i++)
 {
     array[i] = 'a';
 }
 Console.WriteLine("" + string.Join(", ", array) + "]");
+*/
 
-
+/*
 string[] array = new string[5];
 for (int i = 0; i < 5; i++)
 {
@@ -82,3 +84,4 @@ for (int i = 0; i < 4; i++) // послед не учитывается
     array[i] = temp;
 }
 Console.WriteLine("Sort array [" + string.Join(", ", array) + "]");
+*/
