@@ -28,3 +28,6 @@ Need add to `~/.basrc`:
     alias pip="/usr/bin/pip"
 
 Add plugin to `VSC`. Extension -> Find: Python. (by MSFT, IntelliSence (Pylance)).
+
+## Compliear Python's script.
+
