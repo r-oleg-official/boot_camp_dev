@@ -1,6 +1,6 @@
 ## Install Python to Mint 20.
 
-    $ sudo apt install python3 - include to Mint 20
+    $ sudo apt-get install python3 python3-venv python3-pip
     $ sudo apt install python3.9
 
 Add to `~/.basrc`:
